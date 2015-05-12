@@ -1058,7 +1058,7 @@ QImage WebPage::renderImage()
     return buffer;
 }
 
-#define PHANTOMJS_PDF_DPI 72            // Different defaults. OSX: 72, X11: 75(?), Windows: 96
+#define PHANTOMJS_PDF_DEFAULT_DPI 72            // Different defaults. OSX: 72, X11: 75(?), Windows: 96
 
 
 uint getPrintDpi(const QVariantMap &map)
